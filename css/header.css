@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header{
+    width: 100%;
+    background: #282828;
+    height: 66px;
+}
+header .header{
+    width: 1200px;
+    margin: 0 auto;
+}
+header .header:after{
+    content:"";
+    clear:both;
+    display:block
+}
+header .header .logo{
+    float: left;
+    width: 140px;
+    height: 50px;
+    margin-left: 15px;
+}
+header .header .logo img{
+    width: 100%;
+    margin-top: 6px;
+}
+header .header .list{
+    float: right;
+}
+header .header .list:after{
+    content:"";
+    clear:both;
+    display:block
+}
+header .header .list>li{
+    float: left;
+    padding: 18px 24px 17px;
+    line-height: 30px;
+}
+header .header .list>li a{
+    color: white;
+    font-size: 13px;
+}
+header .header .list>li a:hover{
+    color: darkgray;
+}
+header .header .list>li:last-of-type{
+    width: 210px;
+    padding: 0;
+    position: relative;
+}
+header .header .list>li:last-of-type .denglu{
+    margin-left: 30px;
+    cursor: pointer;
+}
+header .header .list>li:last-of-type .denglu img{
+    margin-top: 25px;
+}
+header .header .list>li:last-of-type .gouwuche{
+    height: 66px;
+    display: block;
+    padding: 0 24px;
+    background: #f25c4a;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    line-height: 66px;
+    cursor: pointer;
+}
+header .header .list li:last-of-type .gouwuche span{
+    color: white;
+    position: relative;
+    width: 70px;
+    height: auto;
+    display: inline-block;
+    text-align: left;
+}
+header .header .list li:last-of-type .gouwuche span img{
+    position: absolute;
+    top: 23px;
+    right: 0;
+}
+header .shouji{
+    position: absolute;
+    top: 66px;
+    left: 0;
+    width: 100%;
+    height: 240px;
+    z-index: 9999999999;
+    background: rgba(49, 49, 49, 0.95);
+    display: none;
+}
+header .shouji .shouji_left{
+    position: absolute;
+    height: 100%;
+    line-height: 240px;
+    top: 0;
+    left: 0;
+    display: block;
+}
+header .shouji .shouji_right{
+    position: absolute;
+    height: 100%;
+    line-height: 240px;
+    top: 0;
+    right: 0;
+    display: block;
+}
+header .shouji .shouji_pic>span{
+    cursor: pointer;
+}
+header .shouji .shouji_pic{
+    width: 1170px;
+    height: 240px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+header .shouji .shouji_pic ul{
+    width: 17000px;
+    padding-top: 40px;
+    height: 188px;
+}
+header .shouji .shouji_pic ul:after{
+    content: "";
+    clear: both;
+    display: block;
+}
+header .shouji .shouji_pic li{
+    float: left;
+    width: 195px;
+    text-align: center;
+    cursor: pointer;
+}
+header .shouji .shouji_pic li img{
+    width: 120px;
+    display: block;
+    margin: 0 auto;
+}
+header .list>li:nth-of-type(3) .shouji .shouji_pic li img{
+    width: 60px;
+    display: block;
+    margin: 20px auto;
+}
+header .list>li:nth-of-type(4) .shouji .shouji_pic li img{
+    width: 60px;
+    display: block;
+    margin: 20px auto;
+}
+header .list>li:nth-of-type(8) .shouji .shouji_pic li img{
+    width: 60px;
+    display: block;
+    margin: 20px auto;
+}
+header .shouji .shouji_pic li span{
+    font-size: 13px;
+    margin-top: 15px;
+    color: #fff;
+}
+header .shouji .shouji_pic li:hover span{
+    color: darkgray;
+}
